@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+	color: #000000;
+}
+.container{
+	max-width: 1177px;
+	margin: 0 auto;
+}
+
+.container__border{
+	border-top: solid 1px black;
+}
+
+.header{
+	height: 177px;
+}
+.header__row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.header__row--mr{
+	margin: 72px 0 0 0;
+}
+
+.logo{
+	display: flex;
+}
+.logo__img{
+	flex: 0 0 28px;
+}
+.logo__h1{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0 0 0 11px;
+}
+
+.content{
+	/*background-color: #2D5066;*/
+	height: 100px; 
+}
+
+.subtitle{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 31px;
+}
+
+.title-tell{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+}
+.title-tell__a{
+	color: black;
+	text-decoration: none;	
+}
+.title-tell__a:hover{
+	color: #C6A464;
+	text-decoration: underline;
+}
+
+.link{
+	color: black;
+	text-decoration: none;	
+}
+.link:hover{
+	color: #C6A464;
+	text-decoration: underline;
+}
+.link-active{
+	color: #C6A464;
+	font-size: 11px;
+	line-height: 14px;
+	text-decoration: underline;
+}
+.link-active:hover{
+	font-weight: bold;
+}
+
+
+
+.footer{
+	height: 400px;
+}
+.footer__row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.footer__row--mr68{
+	margin: 68px 0 0 0;
+}
+.footer__txt-size14{
+	font-size: 14px;
+	line-height: 25px;	
+}
+.footer__txt-size12{
+	font-size: 12px;
+	line-height: 14px;	
+}
+.footer__menu{
+	display: flex;
+	flex: 0 0 528px;
+}
+.footer__item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer__item--menu{
+	flex: 0 0 171px;
+}
+
+.footer__li li{
+	list-style-type: none;
+}
+.footer__li--column li {
+	float:left;
+	width: 46%;
+}
+
+.footer__address{
+	display: flex;
+	flex: 0 0 263px;
+	flex-direction: column;
+}
+
+.footer__address--p{
+	margin: 0 0 10px;
+}
+
+.footer__contact{
+	display: flex;
+	justify-content: flex-start;
+}
+.footer__item--contact{
+	flex: 0 0 176px;
+}
+
+.footer__item--mr30{
+	margin: 0 0 30px;
+}
+
+.messenger{
+	display: flex;
+	width: 95px;
+	justify-content: space-between;
+}
+
+.social{
+	display: flex;
+	width: 151px;
+	justify-content: space-between;
+}
